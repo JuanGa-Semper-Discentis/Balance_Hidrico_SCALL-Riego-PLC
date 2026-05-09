@@ -3,9 +3,6 @@
 **Sistema de Captación de Agua de Lluvias (SCALL) + Riego Automatizado con PLC**  
 **Trabajo Final de Graduación (TFG) - 2026**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PLC](https://img.shields.io/badge/PLC-Automation-FF6600?style=for-the-badge)
-![Costa Rica](https://img.shields.io/badge/Costa%20Rica-00A86B?style=for-the-badge)
 
 ---
 
@@ -34,38 +31,24 @@ El objetivo es mitigar el impacto de la irregularidad de las precipitaciones (fe
 - Cálculo de eficiencia de captación y escorrentía
 - Preparado para integración con automatización industrial
 
----
-
-
-## Tecnologías Utilizadas
-
-- **Python** (pandas, matplotlib, seaborn)
-- **PLC** + HMI (pendiente de implementación)
-- **Control hidráulico** y sensores de nivel/ultrasonido
-- Análisis de series temporales y simulación Monte Carlo
 
 ---
 
-## Resultados Destacados
+## Libreri'as necesarias
 
-- Área de captación optimizada
-- Dimensionamiento de batería de tanques (4 × Ecotank Poseidon 27.000 L)
-- Análisis de viabilidad económica y periodos de retorno
-- Modelos validados con datos reales de Naranjo
+# Core - Análisis de datos
+pandas>=2.2.0
 
----
+# Visualización y gráficos
+matplotlib>=3.8.0
+seaborn>=0.13.0
 
-## Cómo Usar
+# Soporte numérico
+numpy>=1.26.0
 
-```bash
-# Clonar repositorio
-git clone https://github.com/tuusuario/SCALL-Riego-Automatizado-Cafe-Naranjo.git
+# Opcionales pero recomendados
+jupyter>=1.0.0
+ipykernel>=6.29.0
 
-# Instalar dependencias
-cd SCALL-Riego-Automatizado-Cafe-Naranjo
-pip install -r requirements.txt
-
-# Ejecutar simulaciones
-python src/python/8-Balance_Hidrico_ext.py
-python src/python/9-Graficar_B_Hidrico.py
-python src/python/10-Simulacion_Tanque.py
+# Para mejor manejo de fechas y series temporales
+python-dateutil>=2.9.0
