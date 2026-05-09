@@ -36,19 +36,19 @@ El objetivo es mitigar el impacto de la irregularidad de las precipitaciones (fe
 
 ## Libreri'as necesarias
 
-# Core - Análisis de datos
-pandas>=2.2.0
+Core - Análisis de datos
+- pandas>=2.2.0
 
-# Visualización y gráficos
-matplotlib>=3.8.0
-seaborn>=0.13.0
+Visualización y gráficos
+- matplotlib>=3.8.0
+- seaborn>=0.13.0
 
-# Soporte numérico
-numpy>=1.26.0
+Soporte numérico
+- numpy>=1.26.0
 
-# Opcionales pero recomendados
-jupyter>=1.0.0
-ipykernel>=6.29.0
+Opcionales pero recomendados
+- jupyter>=1.0.0
+- ipykernel>=6.29.0
 
-# Para mejor manejo de fechas y series temporales
-python-dateutil>=2.9.0
+Para mejor manejo de fechas y series temporales
+- python-dateutil>=2.9.0
